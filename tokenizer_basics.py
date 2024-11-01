@@ -3,8 +3,7 @@ import keras
 from keras_preprocessing.text import Tokenizer
 
 
-sentences = ['What is Natural Language Processing?',
-             'I am Artificial Intelligence!']
+sentences = ["What is Natural Language Processing?", "I am Artificial Intelligence!"]
 
 tokenizer = Tokenizer(num_words=100)
 tokenizer.fit_on_texts(sentences)
